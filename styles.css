@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     color: white;
     background: #243843;
 }
@@ -33,12 +33,13 @@ body{
 }
 
 .img-fun-facts{
-    width: 150px;
+    max-width: 250px;
     border-radius: 50%;
 }
 
 h3{
     font-size: 30px;
+    margin: 0;
 }
 
 h4{
@@ -49,8 +50,6 @@ h4{
     margin: 0px auto 20px;
     padding: 20px 0;
     background: #586355;
-    display: flex;
-    justify-content: center;
 }
 
 #title-fun-facts{
@@ -59,25 +58,22 @@ h4{
     background: #586355;
 }
 
-.block-fun-facts{
+#block-fun-facts{
     margin: 40px;
     padding: 0 20px;
     text-align: center;
 }
 
 .card-img{
-    width: 250px;
-    border-radius: 10px;
-    padding: 0 20px;
+    max-width: 220px;
+    border-radius: 5px;
 }
 
-.card{
-    width: 600px;
+#card{
+    max-width: 40%;
     margin: 50px auto;
     text-align: center;
-    padding: 20px 40px 20px 10px;
-    display: flex;
-    justify-content: space-around;
+    padding: 20px 20px 10px 20px;
     border-radius: 10px;
     background: #242716;
     border-bottom: 6px solid #74ade4;
@@ -85,4 +81,20 @@ h4{
 
 #card-text{
     font-style: italic;
+    padding: 10px 20px;
+    text-align: center;
 }
+
+@media screen and (min-width: 720px) {
+    .wrapper {
+      display: flex;
+    }
+
+    .col1 {
+      flex: 1;
+    }
+
+    .col2 {
+      flex: 2;
+    }
+  }

@@ -4,6 +4,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,500" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
@@ -14,15 +16,15 @@
         
         <div>
             <h3 id="title-fun-facts">3 fun facts about switzerland</h3>
-            <div id="content-fun-facts">
-                <div class="block-fun-facts">
+            <div class="wrapper" id="content-fun-facts">
+                <div id="block-fun-facts" class="col1">
                     <img class="img-fun-facts" src="images/cow.jpg">
                     <h4>More cows than people</h4>
                     <p>There are over 700,000 cows in Switzerland. With a population of 8.57 million inhabitants,
                         this means that one in twelve has a cow. Of course, the cows mostly live in herds on farms,
                         so it is rumored that in some villages in Switzerland there are more cows than people.</p>
                 </div>
-                <div class="block-fun-facts">
+                <div id="block-fun-facts" class="col1">
                     <img class="img-fun-facts" src="images/mountain.jpg">
                     <h4>Highest peaks in Europe</h4>
                     <p>Switzerland is home to numerous mountains which are over 3,000 meters high.
@@ -31,7 +33,7 @@
                         With 48 mountain peaks that are above 4000 meters, Switzerland has more high peaks than
                         any other country in Europe.</p>
                 </div>
-                <div class="block-fun-facts">
+                <div id="block-fun-facts" class="col1">
                     <img class="img-fun-facts" src="images/lake.jpg">
                     <h4>Switzerland Has 7000 Lakes</h4>
                     <p>Switzerland's lakes are the best ones to swim in and you have plenty to choose from.
@@ -42,9 +44,11 @@
             </div>
         </div>
 
-        <div class="card">
-            <img class="card-img" src="images/alexandra.jpg">
-            <div>
+        <div class="wrapper" id="card">
+            <div class="col1">
+                <img class="card-img" src="images/alexandra.jpg">
+            </div>
+            <div class="col2">
                 <h3>Your guide</h3>
                 <p id="card-text">“I didn't visit that many countries yet, but I'm sure that Switzerland is one of the most beautiful places to see!”</p>
                 <h4>Alexandra Domareski</h4>
