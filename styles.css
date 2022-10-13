@@ -85,7 +85,7 @@ h4{
     text-align: center;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 920px) {
     .wrapper {
       display: flex;
     }
